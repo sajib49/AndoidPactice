@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -29,6 +30,9 @@ public class DepartmentFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_department, container, false);
         ListView lvDepartment =(ListView) view.findViewById(R.id.lvDepartment);
+        Button btnGetDepartment = (Button) view.findViewById(R.id.btnGetDepartment);
+        Button btnClearDepartment = (Button) view.findViewById(R.id.btnClearDepartment);
+
         final Department department = new Department();
         DepartmentAdapter departmentAdapter = new DepartmentAdapter(department.GetDepartments(),getActivity());
         lvDepartment.setAdapter(departmentAdapter);
@@ -37,6 +41,20 @@ public class DepartmentFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(getActivity(),department.GetDepartments().get(position).DepartmentName,Toast.LENGTH_LONG).show();
+            }
+        });
+
+        btnGetDepartment.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(),"jbhjbhbhbhbhbh",Toast.LENGTH_LONG).show();
+            }
+        });
+
+        btnClearDepartment.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(),"jbhjbhbhbhbhbh",Toast.LENGTH_LONG).show();
             }
         });
         return view;

@@ -16,6 +16,18 @@
     <ListView
         android:layout_width="match_parent"
         android:id="@+id/lvEmployee"
-        android:layout_height="wrap_content" />
+        android:layout_height="312dp" />
+
+    <Button
+        android:text="Get Employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGetEmployee" />
+
+    <Button
+        android:text="Clear Employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnClearEmployee" />
 
 </LinearLayout>

@@ -16,8 +16,21 @@
 
     <ListView
         android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:id="@+id/lvDepartment"
+        android:layout_weight="0.36" />
+
+    <Button
+        android:text="Get Department"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lvDepartment"/>
+        android:id="@+id/btnGetDepartment" />
+
+    <Button
+        android:text="Clear Department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnClearDepartment" />
 
 
 </LinearLayout>
