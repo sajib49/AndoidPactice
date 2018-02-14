@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_user"
+            android:title="Employee" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Department" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Designation" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Showroom" />
+
+        <item
+            android:id="@+id/nav_manage2"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Customer" />
+
+        <item
+            android:id="@+id/nav_manage24"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Dealers" />
+
+        <item
+            android:id="@+id/nav_manage42"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Offers" />
+
+        <item
+            android:id="@+id/nav_manage442"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Products" />
+
+        <item
+            android:id="@+id/nav_manage4242"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Total Sales" />
+        <item
+            android:id="@+id/nav_cafregermera"
+            android:icon="@drawable/ic_menu_user"
+            android:title="Employee" />
+
+        <item
+            android:id="@+id/nav_garetellery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Department" />
+        <item
+            android:id="@+id/nav_slidgreeshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Designation" />
+        <item
+            android:id="@+id/nagrev_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Showroom" />
+
+        <item
+            android:id="@+id/nav_managgree2"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Customer" />
+
+        <item
+            android:id="@+id/nav_manageger24"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Dealers" />
+
+        <item
+            android:id="@+id/nav_manage42gr"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Offers" />
+
+        <item
+            android:id="@+id/nav_manage44342"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Products" />
+
+        <item
+            android:id="@+id/nav_manage424342"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Total Sales" />
+    </group>
+
+
+
+</menu>
